@@ -1,0 +1,21 @@
+{
+  "name": "trackone-backend",
+  "version": "1.0.0",
+  "description": "Backend API for TrackOne app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.23.0"
+  }
+}
