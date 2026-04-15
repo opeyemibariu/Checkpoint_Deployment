@@ -12,7 +12,7 @@ app.use('/api/workers', router)
 app.get(/.*/, (req, res) => {
   res.sendFile(path.resolve(__dirname, 'my_frontend', 'dist', 'index.html'));
 });
-// nothing
+
 const port = process.env.PORT || 5000;
 const start = async () => {
     try {
